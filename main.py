@@ -16,3 +16,9 @@ class Mercedes:
 c = Mercedes("CLS-63 AMG-Class", "W218 M157 V8 BITURBO️😮‍💨", "2000 hp", "2.3 sec", "510 km/h")
 c.display_info()
 
+class BMW(Mercedes):
+    def __init__(self, модель, двигатель, мошность, ускорение, max_скорость):
+        super().__init__(модель, двигатель, мошность, ускорение, max_скорость)
+
+bmw = BMW("BMW M5", "S63 V8", "600 hp", "3.4 sec", "305 km/h")
+bmw.display_info()
